@@ -28,7 +28,7 @@
 .about-section .top-image .image{
   height: 97%;
   width: 98.4%;
-  background: url("/images/about-image.jpg");
+  background: url("about-image.jpg");
   margin: 0.8% auto;
   background-size: cover;
   border: 4px solid transparent;
