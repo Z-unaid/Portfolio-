@@ -1,0 +1,391 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@500&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Abel&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Pathway+Gothic+One&display=swap');
+  @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap');
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.about-section .about-top-container{
+  height: fit-content;
+  width: 100%;
+  background: #fff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.about-section .top-image{
+  height: 75vh;
+  width: 100%;
+}
+
+.about-section .top-image .image{
+  height: 97%;
+  width: 98.4%;
+  background: url("/images/about-image.jpg");
+  margin: 0.8% auto;
+  background-size: cover;
+  border: 4px solid transparent;
+  position: relative;
+}
+.about-section .image i{
+  position: absolute;
+  top: 0.1%;
+  left: 0%;
+  color: #ccc;
+}
+@keyframes image-buttom-animate{
+ 
+  25%{
+    transform: translateY(4%);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.about-section .top-image .image div:first-child{
+  position: absolute;
+  width: 80%;
+  height: 15%;
+  background: #fff;
+  border-radius: 20px;
+  top: 106%;
+  left: 10%;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation: 1s ease-out 1 image-buttom-animate;
+  -webkit-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+  box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+  color: #000;
+ 
+}
+.about-section .top-image .image div:first-child div:first-child{
+  position: absolute;
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 20px 20px 20px;
+    border-color: transparent transparent #fff transparent;
+    transform: rotate(0deg);
+    top: -12%;
+    left: calc(50% - 20px);
+    border-radius: 0;
+    background: transparent;
+    z-index: auto;
+    box-shadow: none;
+}
+.about-section .top-image .image p{
+  width: 97%;
+  text-align: center;
+  font-weight: bold;
+  font-size: 4vmin;
+}
+/* about me .about-section */
+.about-section .about-me{
+  height: fit-content;
+  width: 100%;
+  background: #fff;
+  padding: 3vh 0;
+}
+.about-section .about-me h1{
+  font-family: 'Teko', sans-serif;
+  letter-spacing: 0.5px;
+  margin: 0 0 0 2%;
+  color: #332941;
+  font-size: 5.5vmin;
+}
+.about-section .discription{
+  font-family: 'Abel', sans-serif;
+  font-weight: normal;
+  font-size: 4.5vmin;
+  width: 97%;
+  margin: auto;
+  border-radius: 7px;
+  background: #fff;
+  padding: 2%;
+  margin-bottom: 2%;
+  color: #191919;
+  
+}
+.about-section .discription p:last-child{
+  margin: 4.5% 0;
+}
+/* Card styles.about-section */
+.about-section .card{
+  width: 95%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px 0;
+  margin: auto;
+  border-radius: 10px;
+  background: #fff;
+  -webkit-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+}
+.about-section .card div{
+  width: 95%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #fff;
+  font-size: 4.1vmin;
+  font-weight: normal;
+  font-family: 'Pathway Gothic One', sans-serif;
+  color: #3D3B40;
+}
+.card div p:first-child{
+  width: 20.3vmin;
+  background: #fff;
+  font-weight: bold;
+}
+.about-section .card div p:last-child{
+  width: 50vmin;
+  background: #fff;
+  font-weight: bold;
+}
+.about-section .image:hover div:first-child{
+  display: flex;
+}
+.about-section{
+  display: none;
+}
+/* resume section Star*/
+.resume-section{
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  position: relative;
+}
+.resume-section .download-resume h1{
+  font-family: 'Ubuntu', sans-serif;
+}
+.resume-section .download-resume{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  color: #332941;
+}
+.resume-section .download-resume .button{
+  height: 50px;
+  width: 220px;
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4%;
+  overflow: hidden;
+  border-radius: 10px;
+  -webkit-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+box-shadow: 8px 8px 25px 0px rgba(66, 68, 90, 1);
+}
+.resume-section .button-link{
+  text-decoration: none;
+}
+.resume-section .download-resume .button div:first-child{
+  position: absolute;
+  left: -3%;
+  height: 20px;
+  width: 10px;
+  background: blue;
+  top: 15px;
+  border-radius: 20px;
+  
+}
+.resume-section .download-resume .button div:nth-child(2){
+  position: absolute;
+  right: -3%;
+  height: 10px;
+  background: blue;
+  height: 20px;
+  width: 10px;
+  top: 15px;
+  border-radius: 20px;
+}
+.resume-section .download-resume .button i{
+    font-size: 1.3rem;
+    color: #1B54D8;
+}
+.resume-section .download-resume .button p{
+    font-family: 'Oswald', sans-serif;
+    font-weight: bold;
+    font-size: 1.3rem;
+    letter-spacing: 0.01rem;
+    color: #1B54D8;
+}
+.resume-section .go-back{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0.5%;
+  left: 2%;
+  background: #fff;
+  border-radius: 6px;
+  border-top-left-radius: 0;
+  border-bottom-right-radius: 0;
+  height: 28px;
+  width: 24px;
+  -webkit-box-shadow: 5px 3px 25px 0px rgba(66, 68, 90, 1);
+-moz-box-shadow: 5px 3px 6px 25px rgba(66, 68, 90, 1);
+box-shadow: 5px 3px 25px 0px rgba(66, 68, 90, 1);
+}
+.resume-section .go-back:hover .go-back-hover{
+  display: flex;
+}
+
+
+
+@keyframes go-back-animate{
+  25%{
+    transform: translateY(6px);
+  }
+  100%{
+    transform: translateY(0);
+  }
+}
+.resume-section .go-back-hover{
+  position: absolute;
+  width: 79px;
+  height: 39px;
+  background: #fff;
+  border-radius: 10px;
+  border-top-left-radius: 0;
+  top: 44px;
+  left: 26px;
+  display: none;
+  justify-content: center;
+  align-items: center;
+  animation: 1s ease-in-out 1 go-back-animate;
+  -webkit-box-shadow: 3px 3px 25px 0px rgba(66, 68, 90, 1);
+  -moz-box-shadow: 3px 3px 25px 0px rgba(66, 68, 90, 1);
+  box-shadow: 3px 3px 25px 0px rgba(66, 68, 90, 1);
+  color: #000;
+  font-weight: bold;
+}
+.resume-section .go-back-hover .triangle{
+  position: absolute;
+  top: -5px;
+  left: 0;
+   width: 0px;
+   height: 0px;
+   border-style: solid;
+   border-width: 28px 0 0 40px;
+   border-color: transparent transparent transparent #fff;
+   transform: rotate(0deg);
+}
+.resume-section .go-back-hover p{
+  z-index: 10;
+}
+.resume-section .go-back:hover + .go-back-hover{
+  display: flex;
+}
+.resume-section{
+  display: none;
+}
+/* personal info section*/
+.personal-section{
+  height: 100vh;
+  width: 100%;
+  display: none;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #08070C;
+}
+.personal-section .error-404{
+  width: 100%;
+  height: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.personal-section .error-404 img{
+  width: 100%;
+}
+.personal-section button{
+  width: 40%;
+  height: 40px;
+  border-radius: 20px;
+  background: transparent;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  border: 2px solid #EEE;
+}
+
+/*Rotate */
+
+
+.rotate-section{
+  height: 100vh;
+  width: 100%;
+  display: none;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  background: #fff;
+  font-size: 1.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu', sans-serif;
+}
+.rotate-section div:first-child{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+ 
+}
+.rotate-section .image img{
+  height: 40px;
+  animation: 1s linear 1 rotate-animate;
+  transform: rotate(0deg);
+  
+}
+.rotate-section .image{
+  width: fit-content;
+  background: transparent;
+  margin: 5%;
+}
+@keyframes rotate-animate{
+  0%{
+    transform: rotate(90deg);
+  }
+  100%{
+    transform: rotate(0deg);
+  }
+}
+@media (height <= 400px) {
+  .rotate-section{
+    display: flex;
+  }
+  .home-section{
+    display: none;
+  }
+  .about-section{
+    display: none;
+  }
+  .resume-section {
+    display: none;
+  }
+  .personal-section{
+    display: none;
+  }
+}
