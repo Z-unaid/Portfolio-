@@ -265,7 +265,7 @@ body{
 .top-container{
   height: 100vh;
   width: 100%;
-  background: url("/images/1top-bg-2.jpg");
+  background: url("1top-bg-2.jpg");
   background-size: cover;
   position: relative;
 }
