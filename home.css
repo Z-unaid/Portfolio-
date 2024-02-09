@@ -270,13 +270,11 @@ body{
   position: relative;
 }
 .top-name{
-  width: 45%;
   height: 11%;
   position: absolute;
   top: 30%;
   left: 2%;
   color: #fff;
-  border: 0px solid red;
 }
 .top-name > p:first-child{
   font-size: 6.10vmin;
