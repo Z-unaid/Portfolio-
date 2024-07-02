@@ -703,13 +703,13 @@ left: -0.5px;
   display: none;
 }
 .skills-2 .python-progress {
-  width: 5%;
+  width: 70%;
 }
 .skills-2 .python-progress > *{
   display: none;
 }
 .skills-2 .cpp-progress {
-  width: 10%;
+  width: 95%;
 }
 .skills-2 .cpp-progress > *{
   display: none;
