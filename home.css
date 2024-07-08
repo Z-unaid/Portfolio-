@@ -700,19 +700,19 @@ left: -0.5px;
   width: 90%;
 }
 .skills-2 .php-progress > *{
-  display: flex;
+  /*display: flex;*/
 }
 .skills-2 .python-progress {
   width: 70%;
 }
 .skills-2 .python-progress > *{
-  display: flex;
+ 
 }
 .skills-2 .cpp-progress {
   width: 95%;
 }
 .skills-2 .cpp-progress > *{
-  display: flex;
+  /*display: flex;*/
 }
 .skills-2 .skill-name {
   font-size: 1rem;
