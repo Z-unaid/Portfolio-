@@ -319,8 +319,8 @@ locationPin.addEventListener('submit', (event) => {
     event.preventDefault();
     let pIN = locPinInput.value;
     wrongPinText.innerText = pIN;
-    if (pIN === "7323") {
-        window.open('https://maps.app.goo.gl/3Gim9dv5Fjaj1tmw7', '_blank');
+    if (pIN === "1111") {
+        window.open('https://maps.app.goo', '_blank');
         locationPin.style.display = 'none';
         locPinInput.value = '';
         wrongPin.children[3].classList.remove('alertTimeLine');
